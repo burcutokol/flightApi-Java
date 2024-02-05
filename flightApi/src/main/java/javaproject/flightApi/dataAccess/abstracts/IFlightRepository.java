@@ -3,8 +3,8 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import javaproject.flightApi.entities.concretes.Airport;
+import javaproject.flightApi.entities.concretes.Flight;
 
-public interface IAirportRepository extends JpaRepository<Airport, Integer>{
-	
+public interface IFlightRepository extends JpaRepository<Flight, Integer> {
+
 }
